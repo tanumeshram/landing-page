@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Pravas</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home" class="hero">
+        <h2>Your Next Adventure Awaits</h2>
+        <p>Discover breathtaking destinations and unforgettable experiences.</p>
+        <a href="#destinations" class="btn">Get Started</a>
+    </section>
+    
+    <section id="destinations" class="destinations">
+        <h2>Top Destinations</h2>
+        <div class="destination-grid">
+            <div class="destination">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcJ60yF9pVd-1B9VrD21Z39WIJoI6CwcctBA&s" alt="Maldives">
+                <h3>Maldives</h3>
+            </div>
+            <div class="destination">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5lE5eW5SGfz3-no5ERth9pdlYe0H0EmhWqA&s" alt="Switzerland">
+                <h3>Switzerland</h3>
+            </div>
+            <div class="destination">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMLYh7jRBjiM2rx4frVlb3-1lu5BIzRx8wCA&s" alt="New York">
+                <h3>New York, USA</h3>
+            </div>
+        </div>
+    </section>
+    
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <p>We offer guided tours, travel packages, and customized trips to make your journey special.</p>
+    </section>
+    
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Parvas. All rights reserved.</p>
+    </footer>
+</body>
+</html>
